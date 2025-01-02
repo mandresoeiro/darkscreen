@@ -1,0 +1,23 @@
+# Ignorar a pasta assets
+/assets/
+
+# Ignorar arquivos e pastas de dependências
+node_modules/
+bower_components/
+
+# Ignorar arquivos temporários de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de build
+/dist/
+/build/
+
+# Ignorar arquivos de cache
+*.cache

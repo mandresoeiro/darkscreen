@@ -1,0 +1,53 @@
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente na página */
+  padding: 20px; /* Adiciona um espaçamento interno */
+}
+
+.main-info {
+  width: 100%;
+  max-width: 570px;
+}
+
+.main-info p {
+  font-size: 16px;
+  margin: 20px 0 28px;
+}
+
+.main-info div {
+  display: flex;
+  column-gap: 32px;
+}
+
+.main-info div a,.main-info div button {
+  width: 100%;
+  /* height: 40px; Corrigido o tamanho do botão */
+  padding: 10px 0;
+  border-radius: 3px;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+
+  transform: skew(--10d)
+  
+}
+
+.main-info div a {
+  background: var(--red);
+  /* color: white; /* Adicionado para garantir contraste */
+  /* text-decoration: none; Remove sublinhado */
+}
+.main-info div button {
+  background: transparent;
+  border: 1px solid var(--green);
+ 
+}
